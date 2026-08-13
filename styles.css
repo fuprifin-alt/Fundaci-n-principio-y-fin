@@ -254,3 +254,30 @@ footer { background: #0d1422; color: #aeb6c5; padding: 35px 0; }
   .footer-content { flex-direction: column; align-items: flex-start; }
   .purpose-card { padding: 28px; }
 }
+.videos {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.videos h2 {
+    color: #1b3a73;
+    font-size: 2rem;
+}
+
+.videos p {
+    margin-bottom: 30px;
+}
+
+.video-container {
+    max-width: 900px;
+    margin: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
